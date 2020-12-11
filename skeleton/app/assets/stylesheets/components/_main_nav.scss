@@ -19,13 +19,17 @@
   > ul {
     > li {
         font-family: sans-serif;
-        font-size: 20px;
+        font-size: 11px;
         text-transform: uppercase;
-        margin: 0 30px;
+        margin-left: 20px;
+        font-weight: bold;
+        padding: 7px 9px;
+        cursor: pointer;
     }
   }
 
   span {
+    margin-left: 10px;
 
   }
 }
@@ -35,10 +39,8 @@
   > ul {
 
     > li {
-          font-family: sans-serif;
-          font-size: 20px;
-          text-transform: uppercase;
-          margin: 0 2px;
+          margin-left: 5px;
+          cursor: pointer;
     }
 
     > li:last-of-type {
